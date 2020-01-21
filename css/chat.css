@@ -3,7 +3,8 @@
 }
 
 .chat-main {
-  margin-top: 20px;
+  margin-top: 100px;
+  padding-top: 20px;
 }
 
 .chat-main_time-box {
@@ -98,6 +99,7 @@
   margin-left: 5px;
 }
 .chat_write {
+  background: url("../image/ep_naturalwhite.png");
   margin: 0 auto;
   bottom: 0px;
   width: 100%;

@@ -1,7 +1,16 @@
 .kokoa-talk {
   visibility: visible;
-  height: 300px;
-  width: 300px;
+  height: 350px;
+  width: 350px;
+}
+.kokoa-talk span {
+  visibility: visible;
+  font-size: 100px;
+  font-weight: bold;
+}
+.kokoa-talk i {
+  visibility: visible;
+  margin-left: 50px;
   font-size: 100px;
   font-weight: bold;
 }

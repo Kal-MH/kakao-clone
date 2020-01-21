@@ -9,6 +9,9 @@
   font-size: 20px;
 }
 
+.settings-main {
+  margin-top: 100px;
+}
 .settings-main_section1 {
   margin-top: 20px;
   border-bottom: 1px solid ghostwhite;
@@ -39,4 +42,8 @@
 
 .settings-main_section2 {
   margin-top: 20px;
+}
+
+.box {
+  animation: leftsidecomming 0.7s ease-out forwards;
 }
