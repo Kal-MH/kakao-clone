@@ -12,6 +12,7 @@
     <title>Chat</title>
   </head>
   <body>
+    <div class="kokoa-talk">KoKoa Talk</div>
     <div class="status-bar">
       <span class="status-bar_timestamp">13:53</span>
       <div class="status-bar_icon-box">
@@ -23,17 +24,84 @@
         <i class="fas fa-battery-quarter"></i>
       </div>
     </div>
-    <header class="header">
+    <header class="chat-header header">
       <div class="header_title">
-        <i class="fas fa-arrow-left"></i>
-        <span class="header_title-title">정창곤입니다</span>
+        <a href="index.html"><i class="fas fa-arrow-left"></i></a>
+        <span class="header_title-title">Felipe Serrano, Lynn</span>
       </div>
       <div class="header_icon-box">
         <i class="fas fa-search"></i>
         <i class="fas fa-bars"></i>
       </div>
     </header>
-    <main class="chat-main"></main>
-    <footer class="input-box"></footer>
+    <main class="chat-main">
+      <div class="chat-main_time-box">
+        <div class="chat-main_line"></div>
+        <span class="chat-main_time">Friday, January 11, 2019</span>
+        <div class="chat-main_line"></div>
+      </div>
+      <ul class="chat-main_chats">
+        <li class="outer-box">
+          <div class="outer_leftside">
+            <div class="outer_leftside-image-box">
+              <div class="outer_leftside-image1">
+                <i class="fas fa-user"></i>
+              </div>
+            </div>
+            <div class="chat-box">
+              <span class="chat-box_user">Felipe Serrano</span>
+              <span class="chat-box_comments"
+                >A lot of congrats on your engagement
+              </span>
+            </div>
+            <span class="chat-box_time">15:19</span>
+          </div>
+        </li>
+        <li class="chat_right-box">
+          <div class="chat_right-box-container">
+            <span class="chat-box_time">15:22</span>
+            <div class="chat-box">
+              <div class="chat-box_comments">
+                Thanks a lot dude! We will celebrate a lot when I get there in
+                February:)
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="outer-box">
+          <div class="outer_leftside">
+            <div class="outer_leftside-image-box">
+              <div class="img-input2 outer_leftside-image1"></div>
+            </div>
+            <div class="chat-box">
+              <span class="chat-box_user">Lynn</span>
+              <span class="chat-box_comments">Sounds great!!!</span>
+            </div>
+            <span class="chat-box_time">15:23</span>
+          </div>
+        </li>
+      </ul>
+    </main>
+    <div class="chat_input-container">
+      <input
+        type="text"
+        class="chat_write"
+        placeholder="Send message"
+        class="chat_write-input"
+      />
+
+      <div class="chat_icon-left-box chat_icon">
+        <i class="far fa-plus-square"></i>
+      </div>
+
+      <div class="chat_icon-right-box chat_icon">
+        <span class="chat_write-icon">
+          <i class="far fa-smile-wink"></i>
+        </span>
+        <span class="chat_write-icon">
+          <i class="fas fa-microphone"></i>
+        </span>
+      </div>
+    </div>
   </body>
 </html>

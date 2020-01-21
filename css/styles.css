@@ -9,18 +9,12 @@
 @import "more.css";
 @import "settings.css";
 @import "chat.css";
+@import "mobile.css";
 * {
   visibility: hidden;
 }
 body {
   background: url("../image/whirlpool.png");
-}
-.kokoa-talk {
-  visibility: visible;
-  height: 300px;
-  width: 300px;
-  font-size: 100px;
-  font-weight: bold;
 }
 @media screen and (min-width: 320px) and (max-width: 640px) {
   body {
