@@ -1,0 +1,37 @@
+@import "reset.css";
+@import "status_bar.css";
+@import "header.css";
+@import "nav.css";
+@import "global.css";
+@import "chats.css";
+@import "find.css";
+@import "friends.css";
+@import "more.css";
+@import "settings.css";
+@import "chat.css";
+* {
+  visibility: hidden;
+}
+body {
+  background: url("../image/whirlpool.png");
+}
+.kokoa-talk {
+  visibility: visible;
+  height: 300px;
+  width: 300px;
+  font-size: 100px;
+  font-weight: bold;
+}
+@media screen and (min-width: 320px) and (max-width: 640px) {
+  body {
+    padding: 0px 10px;
+    background: white;
+  }
+  .kokoa-talk {
+    display: none;
+  }
+  * {
+    visibility: visible;
+    box-sizing: border-box;
+  }
+}

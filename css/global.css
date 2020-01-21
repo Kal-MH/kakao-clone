@@ -1,0 +1,120 @@
+.outer-box {
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.outer_leftside {
+  width: 80%;
+  display: flex;
+}
+.outer_rightside {
+  width: 20%;
+  padding: 17px 0px 0px;
+  position: relative;
+}
+.outer_leftside-image-box {
+  width: 18%;
+  height: 100%;
+  padding: 5px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.outer_leftside-description-box {
+  width: 80%;
+  height: 100%;
+  padding: 17px 0px 10px 10px;
+  display: flex;
+  flex-direction: column;
+  align-self: flex-start;
+}
+
+.outer_leftside-image1 {
+  width: 90%;
+  height: 90%;
+  border-radius: 22px;
+  background-color: rosybrown;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid white;
+}
+.outer_leftside-image2 {
+  border-radius: 18px;
+  width: 60%;
+  height: 60%;
+  background-color: rosybrown;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid white;
+}
+.outer_leftside-image4 {
+  border-radius: 15px;
+  width: 45%;
+  height: 45%;
+  background-color: rosybrown;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid white;
+}
+
+.image-lotaion1 {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+}
+.image-lotaion2 {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+}
+.image-lotaion3 {
+  position: absolute;
+  bottom: 5px;
+  left: 5px;
+}
+.image-lotaion4 {
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+}
+
+.img-input1 {
+  background: url("../image/cat.jpg");
+  background-position: right center;
+}
+.img-input2 {
+  background: url("../image/cat2.jpg");
+  background-position: top center;
+}
+.img-input3 {
+  background: url("../image/cat3.jpg");
+  background-position: right center;
+}
+.img-input4 {
+  background: url("../image/cat4.jpg");
+  background-position: top center;
+}
+
+.outer_leftside-image i {
+  font-size: 23px;
+  opacity: 0.5;
+}
+.outer_leftside-users {
+  font-weight: bold;
+  font-size: 16px;
+  margin-bottom: 7px;
+}
+.outer_leftside-current {
+  font-size: 12px;
+  font-weight: 600;
+  opacity: 0.6;
+}

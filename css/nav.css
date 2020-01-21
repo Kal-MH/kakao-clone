@@ -1,0 +1,14 @@
+.nav {
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  left: 0;
+  padding: 20px 40px;
+  background: url("../image/whirlpool.png");
+}
+.nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 25px;
+}

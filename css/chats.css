@@ -1,0 +1,12 @@
+.chats-main {
+  margin-top: 20px;
+  width: 100%;
+  height: 100%;
+}
+.outer_rightside-time {
+  font-size: 12px;
+  opacity: 0.6;
+  display: block;
+  position: absolute;
+  right: 0;
+}

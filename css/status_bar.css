@@ -1,0 +1,13 @@
+.status-bar {
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+.status-bar_timestamp {
+  font-size: 15px;
+  opacity: 0.6;
+}
+.status-bar_icon-box {
+  font-size: 15px;
+  opacity: 0.6;
+}

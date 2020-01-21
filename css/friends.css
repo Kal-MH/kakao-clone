@@ -1,0 +1,44 @@
+.friend_img {
+  width: 100%;
+  height: 100%;
+}
+.friends-main {
+  margin-top: 20px;
+}
+
+.main_header {
+  border-bottom: 1px solid ghostwhite;
+  padding-bottom: 10px;
+}
+
+.main_section1 {
+  margin-top: 15px;
+  border-bottom: 1px solid ghostwhite;
+  padding-bottom: 10px;
+}
+.main_section1 .main_section1-plus-friend {
+  font-size: 13px;
+  opacity: 0.6;
+}
+.plus-friend_img {
+  background-color: gold;
+  font-size: 25px;
+}
+.friend-plus-friend_span {
+  padding: 8px;
+}
+.friend-plus-friend_number {
+  font-size: 14px;
+  opacity: 0.6;
+  display: block;
+  position: absolute;
+  right: 10px;
+}
+
+.main_section2 {
+  margin-top: 10px;
+}
+.main_section2 .main_section2-friends {
+  font-size: 13px;
+  opacity: 0.6;
+}
