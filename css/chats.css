@@ -10,3 +10,17 @@
   position: absolute;
   right: 0;
 }
+
+.outer_rightside .badage {
+  top: 33px;
+  right: 2px;
+}
+
+.chat-room_container {
+  margin-bottom: 7px;
+}
+.outer_leftside-users-number {
+  font-size: 14px;
+  font-weight: bold;
+  opacity: 0.4;
+}

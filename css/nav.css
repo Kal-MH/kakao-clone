@@ -12,3 +12,21 @@
   align-items: center;
   font-size: 25px;
 }
+
+.nav_list-item {
+  position: relative;
+}
+.badage {
+  display: inline-block;
+  padding: 3px;
+  height: 20px;
+  width: 20px;
+  font-size: 15px;
+  background-color: red;
+  color: white;
+  text-align: center;
+  border-radius: 10px;
+  position: absolute;
+  top: -8px;
+  right: -6px;
+}
